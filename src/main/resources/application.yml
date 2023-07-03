@@ -1,0 +1,5 @@
+spring:
+  data:
+    mongodb:
+       uri: mongodb+srv://adrianalonsodev:micro@inventoryproduct.vu7noon.mongodb.net
+       database: inventoryproduct
