@@ -16,7 +16,7 @@ public class ProductViewController {
 	@Autowired
 	private ProductService productService;
 
-	@GetMapping("/products")
+	@GetMapping("/products/list")
 	public String getAllProducts(Model model) {
 		List<Product> products = productService.findAllProducts();
 		model.addAttribute("products", products);

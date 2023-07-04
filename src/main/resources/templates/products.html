@@ -18,11 +18,11 @@
     </thead>
     <tbody>
     <tr th:each="product : ${products}">
-        <td th:text="${products.id}"></td>
-        <td th:text="${products.productName}"></td>
-        <td th:text="${products.description}"></td>
-        <td th:text="${products.price}"></td>
-        <td th:text="${products.stock}"></td>
+        <td th:text="${product.id}"></td>
+        <td th:text="${product.productName}"></td>
+        <td th:text="${product.description}"></td>
+        <td th:text="${product.price}"></td>
+        <td th:text="${product.stock}"></td>
     </tr>
     </tbody>
 </table>
