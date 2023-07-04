@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Product Inventory Web</title>
+</head>
+<body>
+<h1>Product Inventory</h1>
+
+<table>
+    <thead>
+    <tr>
+        <th>ID</th>
+        <th>Name</th>
+        <th>Description</th>
+        <th>Price</th>
+        <th>Stock</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr th:each="product : ${products}">
+        <td th:text="${products.id}"></td>
+        <td th:text="${products.productName}"></td>
+        <td th:text="${products.description}"></td>
+        <td th:text="${products.price}"></td>
+        <td th:text="${products.stock}"></td>
+    </tr>
+    </tbody>
+</table>
+</body>
+</html>
