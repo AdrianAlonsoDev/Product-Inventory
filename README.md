@@ -1,3 +1,5 @@
+#### Language > US/en·![image](https://raw.githubusercontent.com/DavideViolante/Wikipedia-Flag-Icons/master/Chrome%20Extension/WikipediaFlagIcons/flags/us.png) | Others: [ES/es·![image](https://github.com/AdrianAlonsoDev/Product-Inventory/assets/6146371/2fcce1b9-6e3c-48d3-893f-310a0e5d959c)](https://github.com/AdrianAlonsoDev/Product-Inventory/blob/main/README_ES.md)
+
 # Product Inventory
 Small web project developed in [Spring Boot](https://spring.io/projects/spring-boot) <img src="https://s12.gifyu.com/images/SQGEq.png" width="20" height="20"> that utilizes REST for creating a simple product inventory application.
 
@@ -17,7 +19,7 @@ Example ([ProductRepository.java](https://github.com/AdrianAlonsoDev/Product-Inv
 public interface ProductRepository extends MongoRepository<Product, String>
 ```
 - **Separation of Concerns**: The Product class represents the persistent entity stored in the database, while the ProductDTO class is a data transfer object used to communicate with other layers of the applicationinventory.
-- **Data Mapping**: Utilizing [ModelMapper](https://modelmapper.org/getting-started/) to easily map the fields between the Product and ProductDTO classes which can help to achieve precise control over the data that is exposed and transferred in the API.)
+- **Data Mapping**: Utilizing [ModelMapper](https://modelmapper.org/getting-started/) to easily map the fields between the Product and ProductDTO classes which can help to achieve precise control over the data that is exposed and transferred in the API.
 
 Example ([ProductController.java](https://github.com/AdrianAlonsoDev/Product-Inventory/blob/main/src/main/java/dev/adrianalonso/inventoryproduct/controller/ProductController.java#L35)):
 ```java
