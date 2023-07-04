@@ -8,7 +8,7 @@ Small web project developed in [Spring Boot](https://spring.io/projects/spring-b
 <img src="https://s12.gifyu.com/images/SQGEp.png" width="420" height="320">
 
 ## Technical Features
-Configuration: Java 17=, Maven, Mongo DB
+Configuration: Java 17+, Maven, Mongo DB
 - **CRUD Operations**: Full support for Create, Read, Update, and Delete operations on the product inventory.
 - **MongoDB as NOSQL DB**: When using a Mongo database you can take advantage of setting up your repository extending of [MongoRepository](https://docs.spring.io/spring-data/mongodb/docs/current/api/org/springframework/data/mongodb/repository/MongoRepository.html), to get automatic query generation based on naming conventions.
 
