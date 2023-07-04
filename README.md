@@ -2,7 +2,7 @@
 Small web project developed in [Spring Boot](https://spring.io/projects/spring-boot) <img src="https://s12.gifyu.com/images/SQGEq.png" width="20" height="20"> that utilizes REST for creating a simple product inventory application.
 
 ## Technologies
-- Spring Boot: Web + Lombok
+- Spring Boot: Web + MongoDB & Maven.
 - REST: RESTful API architecture integration and communication with the product inventory system.
 - [MongoDB (Atlas)](https://www.mongodb.com/atlas/database): Cloud NoSQL database
 <img src="https://s12.gifyu.com/images/SQGEp.png" width="420" height="320">
