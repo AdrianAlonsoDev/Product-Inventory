@@ -5,7 +5,7 @@ import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import dev.adrianalonso.inventoryproduct.model.Product;
+import dev.adrianalonso.inventoryproduct.entity.Product;
 import dev.adrianalonso.inventoryproduct.repository.ProductRepository;
 import dev.adrianalonso.inventoryproduct.service.ProductService;
 

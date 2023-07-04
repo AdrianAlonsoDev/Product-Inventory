@@ -2,7 +2,7 @@ package dev.adrianalonso.inventoryproduct.service;
 
 import java.util.List;
 
-import dev.adrianalonso.inventoryproduct.model.Product;
+import dev.adrianalonso.inventoryproduct.entity.Product;
 
 public interface ProductService {
 

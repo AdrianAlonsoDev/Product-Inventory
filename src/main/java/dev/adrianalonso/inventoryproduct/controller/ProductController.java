@@ -14,7 +14,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import dev.adrianalonso.inventoryproduct.dto.ProductDTO;
-import dev.adrianalonso.inventoryproduct.model.Product;
+import dev.adrianalonso.inventoryproduct.entity.Product;
 import dev.adrianalonso.inventoryproduct.service.ProductService;
 import dev.adrianalonso.inventoryproduct.util.ObjectMapperUtils;
 
