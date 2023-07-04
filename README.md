@@ -11,18 +11,20 @@ Small web project developed in [Spring Boot](https://spring.io/projects/spring-b
 Configuration: Java 17=, Maven, Mongo DB
 - **CRUD Operations**: Full support for Create, Read, Update, and Delete operations on the product inventory.
 - **MongoDB as NOSQL DB**: When using a Mongo database you can take advantage of setting up your repository extending of [MongoRepository](https://docs.spring.io/spring-data/mongodb/docs/current/api/org/springframework/data/mongodb/repository/MongoRepository.html), to get automatic query generation based on naming conventions.
-Example (`ProductRepository.java`):
+
+Example ([ProductRepository.java](https://github.com/AdrianAlonsoDev/Product-Inventory/blob/main/src/main/java/dev/adrianalonso/inventoryproduct/repository/ProductRepository.java)):
 ```java
 public interface ProductRepository extends MongoRepository<Product, String>
 ```
 - **Separation of Concerns**: The Product class represents the persistent entity stored in the database, while the ProductDTO class is a data transfer object used to communicate with other layers of the applicationinventory.
-- **Data Mapping**: Utilizing [ModelMapper](https://modelmapper.org/getting-started/) to easily map the fields between the Product and ProductDTO classes. (Achieves precise control over the data that is exposed and transferred in the API.)
-Example (`ProductController.java`):
+- **Data Mapping**: Utilizing [ModelMapper](https://modelmapper.org/getting-started/) to easily map the fields between the Product and ProductDTO classes which can help to achieve precise control over the data that is exposed and transferred in the API.)
+
+Example ([ProductController.java](https://github.com/AdrianAlonsoDev/Product-Inventory/blob/main/src/main/java/dev/adrianalonso/inventoryproduct/controller/ProductController.java#L35)):
 ```java
 @GetMapping(value = "/byProductName/{productName}")
-	public ProductDTO getProductByProductName(@PathVariable("productName") String productName) {
-		return ObjectMapperUtils.map(productService.findByProductName(productName), ProductDTO.class);
-	}
+public ProductDTO getProductByProductName(@PathVariable("productName") String productName) {
+    return ObjectMapperUtils.map(productService.findByProductName(productName), ProductDTO.class);
+}
 ```
 
 ## REST API Endpoints
