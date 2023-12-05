@@ -1,4 +1,4 @@
-#### Lenguaje > ES/es·![image](https://github.com/AdrianAlonsoDev/Product-Inventory/assets/6146371/2fcce1b9-6e3c-48d3-893f-310a0e5d959c) | Others: [US/en·![image](https://raw.githubusercontent.com/DavideViolante/Wikipedia-Flag-Icons/master/Chrome%20Extension/WikipediaFlagIcons/flags/us.png)](https://github.com/AdrianAlonsoDev/Product-Inventory/blob/main/README.md) 
+#### Lenguaje > ES/es·![image](https://github.com/AdrianAlonsoDev/Product-Inventory/assets/6146371/2fcce1b9-6e3c-48d3-893f-310a0e5d959c) | Others: [US/en·![image](https://github.com/DavideViolante/Wikipedia-Flag-Icons/blob/master/Chrome%20Extension/WikipediaFlagIcons/images/flags/us.png?raw=true)](https://github.com/AdrianAlonsoDev/Product-Inventory/blob/main/README.md) 
 
 ## Product Inventory
 Pequeño proyecto web desarrollado en [Spring Boot](https://spring.io/projects/spring-boot) <img src="https://s12.gifyu.com/images/SQGEq.png" width="20" height="20"> para demostrar los fundamentos de los microservicios. Utiliza REST para crear una sencilla aplicación de inventario de productos.
