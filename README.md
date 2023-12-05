@@ -1,4 +1,4 @@
-#### Language > US/en·![image](https://raw.githubusercontent.com/DavideViolante/Wikipedia-Flag-Icons/master/Chrome%20Extension/WikipediaFlagIcons/flags/us.png) | Others: [ES/es·![image](https://github.com/AdrianAlonsoDev/Product-Inventory/assets/6146371/2fcce1b9-6e3c-48d3-893f-310a0e5d959c)](https://github.com/AdrianAlonsoDev/Product-Inventory/blob/main/README_ES.md)
+#### Language > US/en·![image](https://github.com/DavideViolante/Wikipedia-Flag-Icons/blob/master/Chrome%20Extension/WikipediaFlagIcons/images/flags/us.png?raw=true) | Others: [ES/es·![image](https://github.com/AdrianAlonsoDev/Product-Inventory/assets/6146371/2fcce1b9-6e3c-48d3-893f-310a0e5d959c)](https://github.com/AdrianAlonsoDev/Product-Inventory/blob/main/README_ES.md)
 
 # Product Inventory
 Small web project used to teach the fundamentals of microservices. Developed with [Spring Boot](https://spring.io/projects/spring-boot) <img src="https://s12.gifyu.com/images/SQGEq.png" width="20" height="20">. Utilizes REST for creating a simple product inventory application.
